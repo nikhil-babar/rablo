@@ -59,10 +59,6 @@ const formInputs = {
     pattern: "^[A-Za-z\\s]+$",
     message: "University name must contain only letters and spaces.",
   },
-  file: {
-    pattern: "^[A-Za-z]+$",
-    message: "Please upload the file",
-  },
 };
 
 const MultiStepForm = () => {
@@ -78,7 +74,6 @@ const MultiStepForm = () => {
           "age",
           "gender",
           "isStudent",
-          "file",
         ],
       },
       {

@@ -91,8 +91,6 @@ const Step1 = ({ updateForm, formData, validate, resetError, error }) => {
               className={styles.file_upload}
               required
               onChange={() => updateForm({ field: "file", value: "input" })}
-              onBlur={(e) => validate(["file"])}
-              onFocus={(e) => resetError(["file"])}
             />
             <span
               className={styles.error}
