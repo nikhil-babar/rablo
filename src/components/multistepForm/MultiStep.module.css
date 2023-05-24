@@ -156,5 +156,16 @@ button:hover {
 @media only screen and (max-width: 600px) {
   .form_wrapper{
     position: static;
+    height: 100%;
+  }
+
+  .button_wrapper{
+    position: relative;
+    float: right;
+  }
+
+  button{
+    padding: 5px;
+    font-size: 0.7rem;
   }
 }
