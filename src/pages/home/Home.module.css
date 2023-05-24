@@ -1,0 +1,53 @@
+hr {
+  width: 100%;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  background-color: white;
+  border-radius: 10px;
+  width: 60%;
+  max-height: 400px;
+  margin-bottom: 100px;
+}
+
+.section_wrapper {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+}
+
+.header {
+  font-size: 2rem;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.content_wrapper {
+  padding: 5px;
+}
+
+.content {
+  font-size: large;
+  font-family: "Cairo", sans-serif;
+}
+
+.content_key {
+  color: gray;
+  text-transform: capitalize;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .wrapper {
+    width: 80%;
+    position: relative;
+    right: 20px
+  }
+}
