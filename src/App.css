@@ -1,9 +1,15 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #f0f1f3;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f1f3;
 }
 
-input{
-    display: block;
+input {
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
 }
