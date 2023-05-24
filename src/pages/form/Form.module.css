@@ -13,3 +13,14 @@
   margin-top: 100px;
 }
 
+@media only screen and (max-width: 600px) {
+  .form{
+    width: 100%;
+    height: 80%;
+  }
+
+  .main{
+    display: block;
+  }
+}
+
